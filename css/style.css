@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 /* our images size and border */
 img{
     width: 350px;
@@ -7,14 +10,14 @@ img{
 /* our div position  */
 .ballon{
     position: absolute;
-    left: 370px;
-    top: 300px;
+    left: 376px;
+    top: 157px;
     filter: grayscale();
 }
 .dog{
     position: absolute;
-    left: 600px;
-    top: 100px;
+    left: 576px;
+    top: 77px;
     filter: grayscale();
 }
 .stone{
