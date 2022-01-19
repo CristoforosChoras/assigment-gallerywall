@@ -11,24 +11,23 @@ img{
 .ballon{
     position: absolute;
     left: 376px;
-    top: 157px;
+    top: 161px;
     filter: grayscale();
 }
 .dog{
     position: absolute;
-    left: 576px;
-    top: 77px;
+    left: 564px;
     filter: grayscale();
 }
 .stone{
     position: absolute;
-    top: 480px;
+    top: 484px;
     filter: grayscale();
 }
 .jump{
     position: absolute;
-    top: 400px;
-    left: 200px;
+    top: 323px;
+    left: 188px;
     filter: grayscale();
 }
 /* our div border and size elements */
