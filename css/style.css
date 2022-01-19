@@ -7,7 +7,7 @@ img{
     height: 250px;
     border: black solid;
 }
-/* our div position  */
+/* our div position and filters*/
 .ballon{
     position: absolute;
     left: 376px;
@@ -37,6 +37,7 @@ div{
     padding: 7px 7px 50px 7px;
     opacity: .8;
 }
+/* hover and rotate  */
 div:hover{
     z-index: 1;
     filter: hue-rotate();
