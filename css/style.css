@@ -1,0 +1,48 @@
+/* our images size and border */
+img{
+    width: 350px;
+    height: 250px;
+    border: black solid;
+}
+/* our div position  */
+.ballon{
+    position: absolute;
+    left: 370px;
+    top: 300px;
+    filter: grayscale();
+}
+.dog{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    filter: grayscale();
+}
+.stone{
+    position: absolute;
+    top: 480px;
+    filter: grayscale();
+}
+.jump{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    filter: grayscale();
+}
+/* our div border and size elements */
+div{
+    border: black solid;
+    padding: 7px 7px 50px 7px;
+    opacity: .8;
+}
+div:hover{
+    z-index: 1;
+    filter: hue-rotate();
+    transform: rotate(30deg);
+    opacity: 1;
+}
+.jump:hover,.dog:hover{
+    z-index: 1;
+    filter: hue-rotate();
+    transform: rotate(-50deg);
+    opacity: 1;
+}
