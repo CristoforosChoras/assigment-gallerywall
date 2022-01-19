@@ -8,18 +8,7 @@ img{
     border: black solid;
 }
 /* every div is connected in the corner of the other div
-example:div stone is connected from the top right corner to div ballon bottom lef corner!also every div begins from the middle of the other vertical and horizontal*/
-.ballon{
-    position: absolute;
-    left: 376px;
-    top: 161px;
-    filter: grayscale();
-}
-.dog{
-    position: absolute;
-    left: 564px;
-    filter: grayscale();
-}
+example:div stone is connected from the top right corner to div ballon bottom lef corner!also every div begins from the middle of the other vertical and horizontal.filters also has been applied*/
 .stone{
     position: absolute;
     top: 484px;
@@ -31,13 +20,24 @@ example:div stone is connected from the top right corner to div ballon bottom le
     left: 188px;
     filter: grayscale();
 }
+.ballon{
+    position: absolute;
+    left: 376px;
+    top: 161px;
+    filter: grayscale();
+}
+.dog{
+    position: absolute;
+    left: 564px;
+    filter: grayscale();
+}
 /* our div border and size elements */
 div{
     border: black solid;
     padding: 7px 7px 50px 7px;
     opacity: .8;
 }
-/* hover and rotate  */
+/* hover and rotate !our divs are rotate when it hover over with a spesific way.for example the first div stone is rotate right 30 degrees adn the second div jump rotates left -50 degrees */
 div:hover{
     z-index: 1;
     filter: hue-rotate();
