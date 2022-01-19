@@ -7,7 +7,8 @@ img{
     height: 250px;
     border: black solid;
 }
-/* our div position and filters*/
+/* every div is connected in the corner of the other div
+example:div stone is connected from the top right corner to div ballon bottom lef corner!also every div begins from the middle of the other vertical and horizontal*/
 .ballon{
     position: absolute;
     left: 376px;
