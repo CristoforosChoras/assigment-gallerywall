@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin:0px;
 }
 /* our images size and border */
 img{
@@ -37,12 +37,13 @@ div{
     padding: 7px 7px 50px 7px;
     opacity: .8;
 }
-/* hover and rotate !our divs are rotate when it hover over with a spesific way.for example the first div stone is rotate right 30 degrees adn the second div jump rotates left -50 degrees */
+/* hover and rotate !our divs are rotate when it hover over with a spesific way.for example the first div stone is rotate right 30 degrees and the second div jump rotates left -50 degrees */
 div:hover{
     z-index: 1;
     filter: hue-rotate();
     transform: rotate(30deg);
     opacity: 1;
+    transition: 3s;
 }
 .jump:hover,.dog:hover{
     z-index: 1;
